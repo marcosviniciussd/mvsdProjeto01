@@ -1,0 +1,259 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	overflow-x:hidden;
+}
+.secao{
+	padding: 70px 10px;
+}
+
+.secao-conteudo{
+	padding-top: 40px;
+}
+
+.subtitulo{
+	margin-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 62px;
+	letter-spacing: 0.01em;
+	word-spacing: 0.15em;
+	text-transform: uppercase;
+}
+
+.espaco-top{
+	padding-top: 20px;
+}
+
+/* NAVBAR */
+
+.navbar-inverse {
+	background-color: transparent;
+	color: #ffffff!important;
+	border-color: transparent;
+}
+
+.navbar{
+	margin-bottom: 0;
+	box-shadow: none!important;
+}
+.navbar-header .navbar-brand{
+	font-size: 30px!important;
+}
+.navbar-inverse .navbar-brand {
+	color: #FF9800!important;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	outline: none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff!important;
+	font-size: 18px!important;
+	outline: none;
+	text-decoration: none;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-family: 'Dosis', sans-serif;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #FF9800!important;
+	font-size: 18px;
+	background-color: transparent!important;
+	font-weight: bolder;
+
+}
+
+.navbar-custom{
+	background-color: #254f75;
+}
+
+.photo {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+}
+
+/* SECTION ATIVIDADE1 */
+
+section#atividade1{
+	/*height: 100%;*/
+	height: 880px;
+	background-repeat: repeat;
+	background-position:right top;
+	margin: 0;
+	background: linear-gradient(135deg, rgba(37,79,117,1) 0%,rgba(78,129,182,1) 100%);
+}
+
+.logo{
+	height: 100%;
+	background-image: url('../img/textura.png');
+	background-repeat: repeat;
+}
+
+.titulo-home{
+	font-family: 'Dosis', sans-serif;
+	color: #ffffff;
+}
+
+.titulo-editor{
+	color: #254f75; 
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+/* SECTION ATIVIDADE2*/
+
+section#atividade2{
+	height: 680px;
+	background-color: #ffffff;
+}
+
+.texto-quem-somos{
+	padding-top: 30px;
+	font-size: 15px;
+}
+
+/* TELA */
+
+section#contato h2.subtitulo{
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+}
+
+.subtitulo-contato{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+
+#contato p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+#contato p i{
+	margin-right: 15px;
+}
+
+input.form-control, textarea.form-control {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em; 
+	color: #CCC;
+	padding: 0px 10px!important;
+	border: solid 2px #CCC !important;
+	border-radius: 2px;
+	box-shadow: none !important;
+}
+
+input.form-control{
+	font-family: 'Dosis', sans-serif;
+	color: #CCC;
+	height: 44px;
+	width: 637px;
+}
+
+input#campoEmail{
+	font-family: 'Dosis', sans-serif;
+	background-color: transparent!important;
+
+}
+
+input#campoNome.form-control{
+	border: solid 2px #777 !important;
+	color: #444;
+}
+
+/* SECTION ATIVIDADE3 */
+section#atividade3{
+	/*height:  100%;*/
+	
+	background-image: url(../img/bg-portfolio.jpg);
+	padding-bottom: 20px;
+
+}
+
+#texto1{
+	padding-top: 15px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#texto2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+.painel-links{
+	padding-top: 50px;
+}
+
+.btn-custom{
+	background-color: transparent!important;
+	cursor: pointer;
+}
+
+
+
+section#download .subtitulo{
+	color: #fff;
+}
+
+section#atividade4{
+	/*background-image: url(../img/aaa5.jpg);*/
+	background-color: #EEEEEE;
+	padding-bottom: 20px;
+	padding-top: 40px;
+	height: 480px;
+
+}
+
+/* FOOTER */
+
+#footer{
+	padding-top: 10px;
+	background-image: url('../img/bg-footer.jpg');
+}
+p.fontecor{
+	color: #CCC!important; 
+}
+.logo-footer h2{
+	font-family: Raleway, Arial, sans-serif;
+	color: #FF9800!important;
+	text-align: center
+}
+
+#footer .redes-sociais a:after {
+	font-family: 'Dosis', sans-serif;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: -38.5px;
+	width: 17px;
+	content: '';
+	background: url('../img/sep-social-link.png') no-repeat center center;
+}
+
+
+
